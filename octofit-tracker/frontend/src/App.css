@@ -1,0 +1,102 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link {
+  color: #f8f9fa !important;
+  font-weight: 500;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.App-logo {
+  height: 40px;
+  margin-right: 12px;
+}
+
+.card-title, h2, h1 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+.btn-primary, .btn-success, .btn-secondary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.btn-primary:hover, .btn-success:hover, .btn-secondary:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #007bff 100%);
+  color: #ffd700;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.table-dark {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+
+a, .App-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover, .App-link:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+.modal-content {
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.modal-header {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  border-bottom: none;
+}
+.modal-title {
+  font-weight: 700;
+}
+.modal-footer {
+  border-top: none;
+}
+
+.form-label {
+  color: #007bff;
+  font-weight: 600;
+}
+
+/* Favicon and logo styles */
+.octofit-logo {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
