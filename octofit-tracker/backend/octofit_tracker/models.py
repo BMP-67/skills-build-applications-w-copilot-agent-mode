@@ -7,9 +7,6 @@ class User(models.Model):
     is_superhero = models.BooleanField(default=True)
     class Meta:
         db_table = 'users'
-        indexes = [
-            models.Index(fields=['email'], name='unique_email_idx', unique=True)
-        ]
 
 class Team(models.Model):
     name = models.CharField(max_length=50, unique=True)
